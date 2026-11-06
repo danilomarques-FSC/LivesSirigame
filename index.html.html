@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resultados | SIRIGAME 2026</title>
+<style>
+:root{--navy:#102b4e;--blue:#1769d2;--cyan:#26a6d1;--purple:#7557d9;--pink:#ef4f83;--orange:#f59e0b;--green:#20a66a;--ink:#172b45;--muted:#64748b;--line:#e4eaf1;--bg:#f3f6fa;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);line-height:1.45}
+.wrap{max-width:1440px;margin:auto;padding:30px 26px 42px}.hero{background:linear-gradient(120deg,#102b4e,#174d83);color:white;border-radius:20px;padding:30px 34px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:360px;height:360px;border:1px solid #ffffff22;border-radius:50%;right:-90px;top:-180px;box-shadow:0 0 0 35px #ffffff0b,0 0 0 75px #ffffff08}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:700;color:#b8d8ff}.hero h1{font-size:clamp(27px,4vw,42px);margin:8px 0 7px;line-height:1.12}.hero p{margin:0;color:#d6e6f8;max-width:720px;font-size:15px}.hero-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.pill{border:1px solid #ffffff42;border-radius:30px;padding:6px 12px;font-size:12px;color:#eef6ff}
+.section{margin-top:28px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:14px}.section h2{font-size:20px;margin:0;color:var(--navy)}.section-sub{font-size:13px;color:var(--muted);margin-top:3px}
+.grid{display:grid;gap:14px}.kpis{grid-template-columns:repeat(4,minmax(0,1fr))}.card{background:var(--white);border:1px solid var(--line);border-radius:15px;padding:18px 19px;box-shadow:0 3px 12px #102b4e08}
+.kpi-label{font-size:12px;color:var(--muted);font-weight:600}.kpi-value{font-size:29px;line-height:1.2;font-weight:750;color:var(--navy);margin:8px 0 4px;letter-spacing:-.6px}.kpi-note{font-size:11px;color:#8290a3}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
+.two{grid-template-columns:1.15fr .85fr}.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.event-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.event-card{padding:0;overflow:hidden}.event-top{padding:18px 19px 15px;border-bottom:1px solid var(--line)}.event-top h3{margin:0 0 4px;color:var(--navy);font-size:17px}.event-top p{margin:0;color:var(--muted);font-size:12px}.event-body{padding:16px 19px}.event-stat{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid #eef2f6;font-size:12px}.event-stat:last-child{border:0}.event-stat span{color:var(--muted)}.event-stat strong{color:var(--navy);font-size:13px}
+.chart-card h3,.insight-card h3{font-size:15px;margin:0 0 4px;color:var(--navy)}.chart-card p{font-size:12px;color:var(--muted);margin:0 0 15px}.chart{width:100%;min-height:245px}.chart svg{width:100%;height:auto;display:block}.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:11px;color:var(--muted);margin-top:10px}.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px}
+.insights{grid-template-columns:repeat(3,minmax(0,1fr))}.insight-card{border-left:3px solid var(--blue)}.insight-card p{font-size:13px;color:var(--muted);margin:7px 0 0}.insight-card strong{color:var(--navy)}
+.reactions{display:grid;gap:12px}.reaction-row{display:grid;grid-template-columns:105px 1fr 42px;align-items:center;gap:10px;font-size:12px}.track{height:10px;background:#edf1f6;border-radius:20px;overflow:hidden}.fill{height:100%;border-radius:20px}.reaction-row b{text-align:right;color:var(--navy)}
+.note{font-size:11px;color:#7b8798;margin-top:12px}.footer a{color:#1769d2;text-decoration:none}.footer a:hover{text-decoration:underline}.footer{margin-top:28px;padding:18px 4px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#8290a3;font-size:11px}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap}.btn{border:1px solid var(--line);background:white;border-radius:30px;padding:8px 13px;color:var(--navy);font-size:12px;cursor:pointer}.btn.active,.btn:hover{background:#e8f1ff;border-color:#bfd7fa;color:#0757b8}
+@media(max-width:950px){.kpis{grid-template-columns:repeat(2,1fr)}.event-grid,.insights{grid-template-columns:1fr}.two{grid-template-columns:1fr}.three{grid-template-columns:1fr}}
+@media(max-width:560px){.wrap{padding:15px 12px 28px}.hero{padding:24px 20px}.kpis{grid-template-columns:1fr 1fr}.kpi-value{font-size:23px}.card{padding:15px}.reaction-row{grid-template-columns:85px 1fr 32px}}
+@media print{body{background:white}.wrap{max-width:none;padding:0}.hero{print-color-adjust:exact;-webkit-print-color-adjust:exact}.card{box-shadow:none;break-inside:avoid}.toolbar{display:none}.section{break-inside:avoid}.footer{margin-top:12px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <div class="eyebrow">Relatório de resultados • Comunicação FIESC</div>
+  <h1>SIRIGAME 2026<br>Resultados das transmissões</h1>
+  <p>Visão consolidada das lives de Abertura, Podcast e Encerramento da Semana de Segurança da Informação e Privacidade.</p>
+  <div class="hero-meta"><span class="pill">3 transmissões analisadas</span><span class="pill">Indicadores de audiência e engajamento</span><span class="pill">Dados conforme painéis disponibilizados</span></div>
+</header>
+
+<section class="section">
+ <div class="section-head"><div><h2>Visão geral</h2><div class="section-sub">Soma dos resultados registrados nas três transmissões. Audiências não deduplicadas entre eventos.</div></div></div>
+ <div class="grid kpis" id="overview"></div>
+</section>
+
+<section class="section">
+ <div class="section-head"><div><h2>Comparativo entre transmissões</h2><div class="section-sub">Compare os principais indicadores de cada live.</div></div>
+ <div class="toolbar" id="metricButtons"><button class="btn active" data-metric="viewers">Espectadores</button><button class="btn" data-metric="comments">Comentários</button><button class="btn" data-metric="reactions">Reações</button><button class="btn" data-metric="engagement">Engajamentos</button><button class="btn" data-metric="reach">Alcance potencial</button></div></div>
+ <div class="card chart-card"><div id="comparison" class="chart"></div><div class="legend"><span><i style="background:#2878d0"></i>Abertura</span><span><i style="background:#7557d9"></i>Podcast</span><span><i style="background:#20a66a"></i>Encerramento</span></div></div>
+</section>
+
+<section class="section">
+ <div class="section-head"><div><h2>Resultados por transmissão</h2><div class="section-sub">Indicadores individuais de cada live.</div></div></div>
+ <div class="grid event-grid" id="events"></div>
+</section>
+
+<section class="section" id="youtube">
+ <div class="section-head"><div><h2>Resultados complementares • YouTube</h2><div class="section-sub">Métricas do YouTube Studio, no período de 9 de outubro a 5 de novembro de 2026. Mantidas separadas dos dados da Beezz.</div></div><span class="pill" style="background:#fff;color:#b42318;border-color:#f2c8c8">YouTube Studio</span></div>
+ <div class="grid kpis" id="youtubeOverview"></div>
+ <div class="grid event-grid" id="youtubeEvents" style="margin-top:14px"></div>
+ <div class="note">Observação: espectadores únicos são estimativas do YouTube por vídeo e não devem ser interpretados como pessoas distintas somadas entre as transmissões. O número de inscritos do Encerramento não foi apresentado no relatório. Os picos simultâneos do YouTube são métricas próprias da plataforma e diferem dos picos registrados na Beezz.</div>
+</section>
+
+<section class="section">
+ <div class="section-head"><div><h2>Distribuição das reações</h2><div class="section-sub">Tipos de reação registrados em cada transmissão.</div></div></div>
+ <div class="grid two">
+  <div class="card chart-card"><h3>Reações por transmissão</h3><p>Quantidade de reações por tipo.</p><div id="reactionChart" class="chart"></div></div>
+  <div class="card chart-card"><h3>Participação no total de reações</h3><p>Distribuição percentual considerando as três lives.</p><div id="reactionMix" class="reactions"></div><div class="note">Total de 575 reações registradas. Os percentuais são calculados a partir dos números exibidos nos painéis.</div></div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="section-head"><div><h2>Principais destaques</h2><div class="section-sub">Leituras que ajudam a contextualizar os resultados.</div></div></div>
+ <div class="grid insights" id="insights"></div>
+</section>
+<div class="footer"><span>FIESC • SIRIGAME 2026</span><span>Fontes: <a href="https://nossaredefiesc.mybeehome.com/beezz" target="_blank" rel="noopener">Beezz • NossaRede FIESC</a> &nbsp;|&nbsp; <a href="https://studio.youtube.com/" target="_blank" rel="noopener">YouTube Studio</a></span></div>
+</div>
+<script>
+const data=[
+{name:"Abertura",color:"#2878d0",subtitle:"Live de abertura | SIRIGAME 2026",reach:14655,viewers:176,peak:103,reactions:94,reactors:26,comments:43,commenters:25,engagement:313,record:4342,uniqueRecord:968,avg:"10:51",types:[12,53,22,3,0,1,3]},
+{name:"Podcast",color:"#7557d9",subtitle:"Podcast | Vibecoding e Identidade Segura",reach:14657,viewers:362,peak:218,reactions:465,reactors:41,comments:961,commenters:167,engagement:1788,record:1841,uniqueRecord:463,avg:"33:18",types:[11,143,281,17,2,3,8]},
+{name:"Encerramento",color:"#20a66a",subtitle:"Encerramento da Semana de Segurança da Informação",reach:15829,viewers:28,peak:9,reactions:16,reactors:2,comments:2,commenters:2,engagement:46,record:38,uniqueRecord:17,avg:"04:08",types:[2,0,14,0,0,0,0]}
+];
+const fmt=n=>n.toLocaleString('pt-BR');
+const total=k=>data.reduce((s,d)=>s+d[k],0);
+const overview=[
+["Espectadores únicos* ",fmt(total("viewers")),"Soma das audiências únicas informadas em cada live.","#20a66a"],
+["Engajamentos",fmt(total("engagement")),"Interações totais registradas nos três eventos.","#7557d9"],
+["Comentários",fmt(total("comments")),"Comentários recebidos durante as transmissões.","#ef4f83"],
+["Reações",fmt(total("reactions")),"Reações enviadas pelo público.","#f59e0b"],
+["Alcance potencial",fmt(total("reach")),"Soma das estimativas de alcance de cada transmissão.","#2878d0"],
+["Visualizações das gravações",fmt(total("record")),"Visualizações totais após as transmissões.","#26a6d1"],
+["Visualizações únicas das gravações",fmt(total("uniqueRecord")),"Soma das visualizações únicas por gravação.","#0b8fc4"],
+["Maior pico simultâneo",fmt(Math.max(...data.map(d=>d.peak))),"Maior pico registrado entre as três lives.","#20a66a"]
+];
+document.getElementById("overview").innerHTML=overview.map(x=>`<div class="card"><div class="kpi-label"><i class="dot" style="background:${x[3]}"></i>${x[0]}</div><div class="kpi-value">${x[1]}</div><div class="kpi-note">${x[2]}</div></div>`).join("");
+const eventStats=[["Alcance potencial","reach"],["Espectadores únicos","viewers"],["Pico simultâneo","peak"],["Comentários","comments"],["Comentaristas únicos","commenters"],["Reações","reactions"],["Reatores únicos","reactors"],["Engajamentos","engagement"],["Visualizações da gravação","record"],["Views únicas da gravação","uniqueRecord"]];
+document.getElementById("events").innerHTML=data.map(d=>`<article class="card event-card"><div class="event-top" style="border-top:4px solid ${d.color}"><h3>${d.name}</h3><p>${d.subtitle}</p></div><div class="event-body">${eventStats.map(([label,key])=>`<div class="event-stat"><span>${label}</span><strong>${fmt(d[key])}</strong></div>`).join("")}<div class="event-stat"><span>Tempo médio de visualização</span><strong>${d.avg}</strong></div>${d.name==="Encerramento"?`<div style="margin-top:14px;padding:12px 13px;background:#fff8e8;border-left:3px solid #f59e0b;border-radius:8px"><strong style="display:block;color:#8a5200;font-size:12px;margin-bottom:4px">Observação sobre a audiência</strong><span style="font-size:12px;color:#725b35">A transmissão de encerramento apresentou um problema técnico, que impactou o acesso do público e contribuiu para o baixo número de espectadores registrados. Por isso, os indicadores de audiência devem ser analisados considerando essa ocorrência.</span></div>`:""}</div></article>`).join("");
+const metrics={viewers:["Espectadores únicos","viewers"],comments:["Comentários","comments"],reactions:["Reações","reactions"],engagement:["Engajamentos","engagement"],reach:["Alcance potencial","reach"]};
+function drawComparison(key){
+ let [label,k]=metrics[key],max=Math.max(...data.map(d=>d[k]))||1;
+ const labelX=0,barX=125,barMax=650,trackWidth=650;
+ let rows=data.map((d,i)=>{
+   let y=24+i*65,barWidth=d[k]/max*barMax,valueX=barX+barWidth+10;
+   return `<text x="${labelX}" y="${y+16}" font-size="12" fill="#53657c">${d.name}</text>
+   <rect x="${barX}" y="${y}" width="${trackWidth}" height="25" rx="6" fill="#edf1f6"/>
+   <rect x="${barX}" y="${y}" width="${barWidth}" height="25" rx="6" fill="${d.color}"/>
+   <text x="${valueX}" y="${y+17}" font-size="12" font-weight="700" fill="#172b45">${fmt(d[k])}</text>`;
+ }).join("");
+ document.getElementById("comparison").innerHTML=`<div style="font-size:13px;font-weight:700;color:#102b4e;margin-bottom:8px">${label}</div><svg viewBox="0 0 900 220" role="img" aria-label="Comparativo de ${label}">${rows}</svg>`;
+}
+drawComparison("viewers");
+document.querySelectorAll("[data-metric]").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("[data-metric]").forEach(x=>x.classList.remove("active"));b.classList.add("active");drawComparison(b.dataset.metric)}));
+const names=["Curtir","Amei","Parabéns","Genial","Curioso","Haha","Triste"],colors=["#2878d0","#ef4f83","#f59e0b","#8b5cf6","#14b8a6","#eab308","#64748b"];
+const sums=names.map((_,i)=>data.reduce((s,d)=>s+d.types[i],0));
+document.getElementById("reactionChart").innerHTML=`<svg viewBox="0 0 650 270" role="img" aria-label="Reações por tipo e transmissão">${names.map((n,i)=>{let y=18+i*35,max=Math.max(...sums);let bars=data.map((d,j)=>`<rect x="${145+j*145}" y="${y}" width="${Math.max(0,d.types[i]/max*110)}" height="9" rx="4" fill="${d.color}"/><text x="${260+j*145}" y="${y+9}" font-size="10" fill="#64748b">${d.types[i]}</text>`).join("");return `<text x="0" y="${y+9}" font-size="11" fill="#53657c">${n}</text>${bars}`}).join("")}<text x="145" y="265" font-size="10" fill="#64748b">Abertura</text><text x="290" y="265" font-size="10" fill="#64748b">Podcast</text><text x="435" y="265" font-size="10" fill="#64748b">Encerramento</text></svg>`;
+const reactionTotal=sums.reduce((a,b)=>a+b,0);
+document.getElementById("reactionMix").innerHTML=names.map((n,i)=>`<div class="reaction-row"><span>${n}</span><div class="track"><div class="fill" style="width:${sums[i]/reactionTotal*100}%;background:${colors[i]}"></div></div><b>${fmt(sums[i])}</b></div>`).join("");
+const podcast=data[1],opening=data[0],closing=data[2];
+
+const yt=[
+{name:"Abertura",views:104,watch:10.5,unique:86,subs:5,avg:"6:04",retention:"19,5%",peak:3,mean:1,chat:null,chatReactions:null,intent:104},
+{name:"Podcast",views:96,watch:19.7,unique:80,subs:15,avg:"12:36",retention:"13,6%",peak:12,mean:5,chat:53,chatReactions:10,intent:96},
+{name:"Encerramento",views:45,watch:8.1,unique:39,subs:null,avg:"10:47",retention:null,peak:30,mean:19,chat:2,chatReactions:0,intent:45}
+];
+const ytSum=k=>yt.reduce((s,d)=>s+(d[k]||0),0);
+const ytKpis=[
+["Visualizações",fmt(ytSum("views")),"Visualizações registradas nos três vídeos.","#2878d0"],
+["Tempo de exibição",ytSum("watch").toLocaleString("pt-BR",{minimumFractionDigits:1,maximumFractionDigits:1})+" h","Horas de exibição somadas no YouTube.","#7557d9"],
+["Espectadores únicos*",fmt(ytSum("unique")),"Soma das estimativas por vídeo; não deduplicada entre lives.","#20a66a"],
+["Novos inscritos", "+"+fmt(ytSum("subs")),"Soma dos ganhos informados em Abertura e Podcast; Encerramento sem dado.","#ef4f83"]
+];
+document.getElementById("youtubeOverview").innerHTML=ytKpis.map(x=>`<div class="card"><div class="kpi-label"><i class="dot" style="background:${x[3]}"></i>${x[0]}</div><div class="kpi-value">${x[1]}</div><div class="kpi-note">${x[2]}</div></div>`).join("");
+const ytRows=[
+["Visualizações","views"],["Espectadores únicos*","unique"],["Tempo de exibição (h)","watch"],["Novos inscritos","subs"],["Média de visualização","avg"],["Média assistida do vídeo","retention"],["Pico simultâneo no YouTube","peak"],["Média de simultâneos","mean"],["Mensagens no chat","chat"],["Reações no chat","chatReactions"]
+];
+document.getElementById("youtubeEvents").innerHTML=yt.map(d=>`<article class="card event-card"><div class="event-top" style="border-top:4px solid #e62117"><h3>${d.name} • YouTube</h3><p>Dados do YouTube Studio</p></div><div class="event-body">${ytRows.map(([label,key])=>{let v=d[key];let display=v===null?"Não informado":(key==="watch"?v.toLocaleString("pt-BR",{minimumFractionDigits:1,maximumFractionDigits:1}):typeof v==="number"?fmt(v):v);return `<div class="event-stat"><span>${label}</span><strong>${display}</strong></div>`}).join("")}</div></article>`).join("");
+
+const insights=[
+["Podcast concentrou o maior engajamento",`A transmissão registrou <strong>${fmt(podcast.engagement)} engajamentos</strong>, cerca de ${Math.round(podcast.engagement/total("engagement")*100)}% do total somado das três lives.`],
+["Maior audiência ao vivo",`O Podcast alcançou <strong>${fmt(podcast.viewers)} espectadores únicos</strong> e pico de <strong>${fmt(podcast.peak)} usuários simultâneos</strong>, os maiores números entre as transmissões.`],
+["Abertura teve maior consumo da gravação",`A gravação da Abertura soma <strong>${fmt(opening.record)} visualizações</strong> e ${fmt(opening.uniqueRecord)} visualizações únicas, acima dos demais eventos.`]
+];
+document.getElementById("insights").innerHTML=insights.map((x,i)=>`<div class="card insight-card" style="border-left-color:${[ "#7557d9","#2878d0","#26a6d1"][i]}"><h3>${x[0]}</h3><p>${x[1]}</p></div>`).join("");
+</script>
+</body></html>
